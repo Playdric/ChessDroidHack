@@ -8,8 +8,9 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.esgi.davidlinhares.chess"
-        minSdkVersion 24
-        targetSdkVersion 28
+        minSdkVersion 22
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
